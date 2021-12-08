@@ -1,5 +1,5 @@
 
-# Setup 
+# Setup Localhost Project
 
 ## 1. สร้างโฟลเดอร์โปรเจค
 
