@@ -21,10 +21,10 @@ firebase init hosting
 
 ### กำหนดข้อมูลของโปรเจค
 
-- What do you want to use as your public directory? กำหนด directory สำหรับใช้ในการ upload ไฟล์ที่พร้อมใช้ไป deploy (ใน workshop นี้เราจะใช้ build)
-- Configure as a single-page app (rewrite all urls to /index.html)? (ใน workshop นี้เราจะตอบว่า yes)
-- Set up automatic builds and deploys with GitHub? เลือกว่าจะให้มีการ build อัตโนมัติตอนสั่ง deploy และผ่าน github ไหม (ใน workshop นี้เราจะตอบว่า no)
-- File build/index.html already exists. Overwrite? ต้องการ overwrite ไฟล์ html หรือไม่ (ใน workshop นี้เราจะตอบว่า no)
+- **What do you want to use as your public directory?** กำหนด directory สำหรับใช้ในการ upload ไฟล์ที่พร้อมใช้ไป deploy (ใน workshop นี้เราจะใช้ build)
+- **Configure as a single-page app (rewrite all urls to /index.html)?** (ใน workshop นี้เราจะตอบว่า yes)
+- **Set up automatic builds and deploys with GitHub?** เลือกว่าจะให้มีการ build อัตโนมัติตอนสั่ง deploy และผ่าน github ไหม (ใน workshop นี้เราจะตอบว่า no)
+- **File build/index.html already exists. Overwrite?** ต้องการ overwrite ไฟล์ html หรือไม่ (ใน workshop นี้เราจะตอบว่า no เพราะไม่งั้นมันจะไปทับโค้ด react ใน html)
 
 ## 3. สั่ง build โปรเจคด้วยตัวเองเพื่อให้ได้ไฟล์ที่พร้อมอัพโหลด
 
@@ -34,12 +34,3 @@ firebase init hosting
 npm run build
 ```
 
-## 4. Deploy ขึ้น Hosting 
-
-รันคำสั่งด้านล่าง 
-
-```bash
-firebase deploy
-```
-
-จะเห็นว่าถ้าการ deploy เสร็จสมบูรณ์ เราจะสามารถใช้ link ที่ปรากฎขึ้นมาใน console เข้าใช้งานได้
