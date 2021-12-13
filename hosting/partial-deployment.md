@@ -6,7 +6,7 @@
 จากภายในโฟลเดอร์โปรเจค Web Application (SPA) เราจะรันคำสั่งเพิ่มเติมการ setup 
 
 ```bash
-firebase emulators:start
+firebase emulators:start --only hosting
 ```
 
 โดยปกติตจะเป็นการรันจาก Port 5000 
