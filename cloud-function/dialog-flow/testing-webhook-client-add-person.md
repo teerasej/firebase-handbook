@@ -8,9 +8,8 @@
    4. กำหนดชื่อ parameter เป็น **firstName** และกำหนดให้ **required**
    5. อย่าลืมใส่ prompt เพื่อทำให้สมบูรณ์มากขึ้น 
 
+<img width="1082" alt="2021-12-13_23-03-57" src="https://user-images.githubusercontent.com/85179/145846830-4f393757-c6a4-495a-b50e-ea6995168bb3.png">
 
-
-image
 
 1. จากนั้นให้ลองใช้ dialog flow หรือ channel chat อื่นๆ ส่งข้อมูลเข้ามา
 2. จากนั้นสังเกตผลลัพธ์ใน firebase emulator
