@@ -7,7 +7,8 @@
 4. นำ url ที่ได้จาก ngrok หรือ cloud function มาใส่ไว้
 5. กด Save 
 
-<img width="1084" alt="2021-12-13_22-19-53" src="https://user-images.githubusercontent.com/85179/145840031-fbbe3b22-1628-4778-86a4-67e3d671fdd2.png">
+
+<img width="1084" alt="2021-12-13_22-19-53" src="https://user-images.githubusercontent.com/85179/145840891-28fccfcf-b6b1-4742-99a4-1c8b18c7a8ca.png">
 
 
 ## Note 
